@@ -1,1 +1,64 @@
 /*Schrijf hier jouw css*/
+body {
+    background-color: beige;
+    padding: 20px 60px;
+    padding-top: 100px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1A293A;
+    color: white;
+}
+
+.nav-subcontainer {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+.logo {
+    text-transform: uppercase;
+
+}
+
+.menu-container {
+    display: flex;
+    gap: 50px;
+}
+
+li {
+    list-style-type: none;
+}
+h1,
+h3 {
+    text-align: center;
+}
+main {
+    display: flex;
+    gap: 20px;
+
+}
+main > div {
+    background-color: indianred;
+    min-width: 102px;
+    max-width: 280px;
+    height: 350px;
+    padding: 20px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
