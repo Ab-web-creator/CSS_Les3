@@ -1,0 +1,84 @@
+/*Schrijf hier jouw CSS*/
+
+.ul1 {
+    /*background-color: red;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+ /*------- Opdracht 2 ------- */
+
+.ul2 {
+    display: flex;
+    justify-content: space-between;
+}
+.ul2 > * {
+    width: 100%;
+}
+
+
+/*------- Opdracht 3 ------- */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-left {
+    align-self: flex-start;
+}
+
+.centered {
+    align-self: center;
+    /*background-color: red;*/
+    /*opacity: 0.5;*/
+}
+
+.bottom-right {
+    /*background-color: blue;*/
+    align-self: flex-end;
+}
+
+/*------- Opdracht 4 ------- */
+
+.ul4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+
+/*------- Opdracht 5 ------- */
+
+ .div5 {
+     display: flex;
+     justify-content: space-between;
+}
+
+.opdracht-5 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.ul-center li {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ul-right li {
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
